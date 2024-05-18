@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    background-color:antiquewhite;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 80px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    padding:  0 12px;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+#logo img{
+    width: 44px;
+    padding: 10px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+    
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 75%;
+    padding: 20px;
+    
+    border-radius: 10px;
+    background-image: url('https://img.freepik.com/free-vector/music-vinyl-record-label-with-sound-notes_1017-33905.jpg?t=st=1715920040~exp=1715923640~hmac=84bcfa760ff26f95a81a200cdc4c91bc9c39822a58e1b050b4d3f4aeb9f6083e&w=2000');
+
+
+
+}
+.bottom{
+    position: sticky;
+    height:100px;
+    background-color: black;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+ 
+}
+.icons{
+    margin-top: 10px;
+    
+}
+.icons i{
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+}
+#myProgressBar{
+    width: 75vw;
+    display: inline;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width:200%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.songItem img{
+    width: 30px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#duration{
+    margin: 5px;
+}
+#duration i{
+    cursor: pointer;
+}
+.songItemCOntainer{
+    margin-top: 30px;
+}
+.songInfo{
+    position: absolute;
+    left: 12.5vw;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: auto;
+
+}
+.songInfo img{
+    height: 40px;
+    transition: opacity 0.8s ease-in;
+    
+
+}
+
+.songInfo p{
+    color:white;
+}
